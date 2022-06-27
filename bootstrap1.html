@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Bootstrap/css/navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        img{
+            height: 512px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  bg-digi">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img class="logo" src="/Bootstrap/images/favicon.png" alt="Logo">
+                </a>
+        
+                <Button class="navbar-toggler"
+                    data-toggle="collapse"
+                    data-target="#navbarStore">
+                    <span class="navbar-toggler-icon">
+        
+                    </span>
+                </Button>
+            <div class="collpase navbar-collapse" id="navbarStore">
+                <ul class="navbar-nav mr-auto" >
+                    <li nav-item>
+                        <a href="/Bootstrap/bootstrap2 copy.html" class="nav-link">HOME</a>
+                    </li>
+                    <li nav-item>
+                        <a href="/Bootstrap/Bootsrap2/bootstrap2.html" class="nav-link">DASHBOARD</a>
+                    </li>
+                    <li nav-item>
+                        <a href="/Bootstrap/register.html" class="nav-link">ABOUT US</a>
+                    </li>
+                    <li nav-item>
+                        <a href="/Bootstrap/Bootsrap2/contact.html" class="nav-link">CONTACT US</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav" >
+                    <li class="nav-item dropdown" style="user-select: auto;">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="user-select: auto;">Riaz Uddin</a>
+                        <div class="dropdown-menu mt-2" style="user-select: auto;">
+                          <a class="dropdown-item" href="/Bootstrap/Bootsrap2/personal.html" style="user-select: auto;">Profile</a>
+                          <a class="dropdown-item" href="/Bootstrap/Bootsrap2/contact.html" style="user-select: auto;">Contact</a>
+                          <a class="dropdown-item" href="/Bootstrap/Bootsrap2/subscription.html" style="user-select: auto;">Subscription</a>
+                          <div class="dropdown-divider" style="user-select: auto;"></div>
+                          <a class="dropdown-item" href="/Bootstrap/Bootsrap2/images/favicon.png" style="user-select: auto;">Favicon</a>
+                        </div>
+                      </li>
+                    <li nav-item>
+                        <a href="loginflow.html" class="nav-link">Sign IN</a>
+                    </li>
+                    <li nav-item>
+                        <a href="#" class="nav-link">Sign Out</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+<div class="container my-4"> 
+    <div id="carouselMain" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselMain" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselMain" data-slide-to="1"></li>
+            <li data-target="#carouselMain" data-slide-to="2"></li>
+          </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active"  data-interval="3000">
+              <img src="/images/11.jpg" class="d-block w-100" alt="IMAGE1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Front End Devlopement</h5>
+                <p>Enahance Your skills on a front end developement enviroment</p>
+              </div>
+          </div>
+          <div class="carousel-item" data-interval="10000">
+            <img src="/images/33.jpg" class="d-block w-100" alt="IMAGE-2">
+          </div>
+          <div class="carousel-item"  data-interval="3000">
+            <img src="/images/444.jpg" class="d-block w-100" alt="IMAGE-3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselMain" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselMain" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
+      </div>
+
+    <!-- <div class="jumbotron">
+        <h1 class="display-4">Digi - Pakistan</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non assumenda numquam unde perferendis a 
+            tempora tempore distinctio maxime magni, eos cum? Mollitia eius numquam rerum possimus ipsam adipisci amet.</p>
+
+    </div>
+ -->
+
+    <div class="row">
+        <div class="col-xl-4 col-lg-6">
+           <div class="card mb-2">
+               <div class="card-body">
+                <h4 class="card-title">FRONT-END </h4>
+                <h6 class="card-subtitle"> Technology Stock</h6>    
+                <ul class="mt-3">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVA-SCRIPT</li>
+                </ul>
+    
+               </div>
+
+           </div>
+        </div>
+        <div class="col-xl-4 col-lg-6">
+           <div class="card mb-2">
+            <div class="body">
+                <h4 class="card-title">SERVER-SIDE </h4>
+                <h6 class="card-subtitle"> Technology Stacks</h6>
+                <ul class="mt-3">
+                    <li>C#</li>
+                    <li>MVC CORE</li>
+                    <li>ASP. NET IDENTITY</li>
+                </ul>
+            </div>
+           </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6">
+            <div class="card mb-2">
+             <div class="body">
+                 <h4 class="card-title">DATA BASE DEVELOPEMENT </h4>
+                 <h6 class="card-subtitle"> Technology Stacks</h6>
+                 <ul class="mt-3">
+                     <li>SQL</li>
+                     <li>SQL ADVANCE</li>
+                     <li>ENTITY CORE</li>
+                 </ul>
+             </div>
+            </div>
+         </div>
+   <footer>
+    <hr>
+
+    <div class="d-flex justify-content-between">
+        <a href="#">Privacy</a>
+    <div>
+        <p class="text-center">Copy@Right &copy; 2019_Digi Pakistan;</p>
+    </div>
+    <a href="#">Agreement</a>
+    </div>
+
+    
+   </footer>
+   <div class="modal">
+       <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-header">
+                <h5 class="modal-title">Full Stack Web developement Using Asp.Net Core</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                
+               </div>
+               <div class="modal-body" data-backdrop="static">
+                   <h4 class="border-bottom">Our Main Model</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVA-SCRIPT</li>
+                    <li>Asp.Net Core</li>
+                    <li>Boot Strap</li>
+                    <li>jquery</li>
+                    <li>C# </li>
+                </ul>
+                <p>This course is coverd in a period of 6 Months</p>
+               </div>
+               <div class="modal-footer d-flex justify-content-between">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="/Bootstrap/register.html" type="button" class="btn btn-primary" id="btnRegister">Register Now</a>
+               </div>     
+            </div>
+       </div>
+   </div>
+    
+
+</div>
+<script src="/Bootstrap/css/proper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+       <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        $ (function(){
+            $("ul.navbar-nav li:eq(0)").addclass("active");
+            $("#carouselMain").carousel({});
+            $(".modal").modal('show');
+           $('.btnRegister').on("click", function(event){
+            event.preventDefault();
+
+            let element = $(this);
+            windo.location = element.attr("href");
+
+           })
+        });
+            
+        
+    </script>
+</body>
+</html>

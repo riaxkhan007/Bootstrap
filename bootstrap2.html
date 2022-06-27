@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap2 TextBox</title>
+    <link rel="stylesheet" href="/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Bootstrap/css/navbar.css">
+    <link rel="shortcut icon" href="/Bootstrap/images/favicon.png" type="imge/x-icon">
+</head>
+<body style="background-color: rgb(149, 204, 197);">
+    <nav class="navbar navbar-expand-lg navbar-light  bg-digi">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img class="logo" src="/Bootstrap/images/favicon.png" alt="Logo">
+                </a>
+        
+                <Button class="navbar-toggler"
+                    data-toggle="collapse"
+                    data-target="#navbarStore">
+                    <span class="navbar-toggler-icon">
+        
+                    </span>
+                </Button>
+            <div class="collpase navbar-collapse" id="navbarStore">
+                <ul class="navbar-nav mr-auto" >
+                    <li nav-item>
+                        <a href="/Bootstrap/bootstrap2 copy.html" class="nav-link">HOME</a>
+                    </li>
+                    <li nav-item>
+                        <a href="/Bootstrap/Bootsrap2/bootstrap2.html" class="nav-link">DASHBOARD</a>
+                    </li>
+                    <li nav-item>
+                        <a href="/Bootstrap/register.html" class="nav-link">ABOUT US</a>
+                    </li>
+                    <li nav-item>
+                        <a href="/Bootstrap/Bootsrap2/contact.html" class="nav-link">CONTACT US</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav" >
+                    <li class="nav-item dropdown" style="user-select: auto;">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="user-select: auto;">Riaz Uddin</a>
+                        <div class="dropdown-menu mt-2" style="user-select: auto;">
+                          <a class="dropdown-item" href="/Bootstrap/Bootsrap2/personal.html" style="user-select: auto;">Profile</a>
+                          <a class="dropdown-item" href="/Bootstrap/Bootsrap2/contact.html" style="user-select: auto;">Contact</a>
+                          <a class="dropdown-item" href="/Bootstrap/Bootsrap2/subscription.html" style="user-select: auto;">Subscription</a>
+                          <div class="dropdown-divider" style="user-select: auto;"></div>
+                          <a class="dropdown-item" href="/Bootstrap/Bootsrap2/images/favicon.png" style="user-select: auto;">Favicon</a>
+                        </div>
+                      </li>
+                    <li nav-item>
+                        <a href="loginflow.html" class="nav-link">Sign IN</a>
+                    </li>
+                    <li nav-item>
+                        <a href="#" class="nav-link">Sign Out</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <div class="container mt-5 ">
+        <div class="row mt-5 mb-5">
+            <div class="col-12">
+                <h2 class="border-bottom">
+                    USER INFORMATION
+                </h2>
+            </div>
+        </div>
+        <div class="card mt-5">
+            <div class="card-body mb-2">
+                <h4 class="card-title">PERSONAL</h4>
+                <h6 class="card-subtitle small Text muted">Enter Your Basic Information</h6>
+                
+                <div class="row">
+            <div class="col-12 form-group" >
+                <label for="FirstName" class="col-form-label font-weight-bolder">First Name</label>
+                <input type="text" id="FirstName" class="form-control">
+            </div>
+            <div class="col-12 form-group">
+                <label for="LastName" class="col-form-label font-weight-bolder">Last Name</label>
+                <input type="text" id="LastName" class="form-control">
+            </div>
+            <div class="col-12 form-group">
+                <label for="FatherName" class="col-form-label font-weight-bolder">Father Name</label>
+                <input type="text" id="FatherName" class="form-control">
+            </div>
+            <div class="col-12 form-group">
+                <label for="DateOfbirth" class="col-form-label font-weight-bolder">Date Of birth</label>
+                <input type="date" id="DateOfbirth" class="form-control">
+            </div>
+            <div class="col-12 form-group">
+                <label for="Gender" class="col-form-label font-weight-bolder">Gender</label>
+                <select  id="Gender" class="custom-select">
+                    <option value="0">Male</option>
+                    <option value="1">Female</option>
+                    <option value="2">Other</option>
+                    
+
+
+                </select>
+            </div>
+           
+
+            <div class="col-12 form-group">
+                <hr>
+                <a href="#" class="btn btn-success float-right">
+                    Save Changes
+                </a>
+                <button class="btn btn-light float-right mr-2 " type="button">
+                   Cancel
+                </button>
+            </div>
+            
+        </div>
+        </div>
+        </div>
+
+        <div class="card mb-5">
+            <div class="card-body mb-2">
+                <h4 class="card-title">CONTACT </h4>
+                <h6 class="card-subtitle small Text muted">We are not Share With anyone Else</h6>
+                
+                <div class="col-12 form-group" >
+                    <label for="Mobile" class="col-form-label font-weight-bolder">Mobile</label>
+                    <input type="text" id="Mobile" class="form-control">
+                </div>
+                <div class="col-12 form-group">
+                    <label for="country" class="col-form-label font-weight-bolder">country</label>
+                    <select  id="country" class="custom-select">
+                        <option value="0">Slect From List</option>
+                        <option value="1" selected>Pakistan</option>
+                        <option value="2">Canada</option>
+                        <option value="3">England</option>
+                        <option value="4">Austrailia</option>
+                        <option value="5">Bangladesh</option>
+                        <option value="6">India</option>
+    
+    
+                    </select>
+
+                </div>
+                <div>
+                    <div class="col-12 form-group">
+                        <hr>
+                        <a href="#" class="btn btn-success float-right">
+                            Save Changes
+                        </a>
+                        <button class="btn btn-light float-right mr-2 " type="button">
+                           Cancel
+                        </button>
+                    </div>
+                </div>
+                
+                
+               
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-6">
+                <div class="card mb-2">
+                    <div class="card-body mb-2">
+                        <h4 class="card-title">SUBSCRIPTION</h4>
+                        <h6 class="card-subtitle Small Text muted">Your Subscriptions</h6>
+                        <div class="row mt-2">
+
+                            <div class="col-12 form-group" >
+                            <div class="custom-control custom-radio">
+                            <input type="radio" id="Free" name="Subscriptions" value="1" class="custom-control-input">
+                            <label for="Free"  class="custom-control-label font-weight-bolder">Free</label>
+
+                        </div>
+                        </div>
+
+                        <div class="col-12 form-group">
+                            
+                            <div class="custom-control custom-radio">
+                            <input type="radio" id="Basic" name="Subscriptions" value="2" class="custom-control-input">
+                            <label for="Basic"  class="custom-control-label font-weight-bolder">Basic</label>
+                        
+                        </div>  
+                        </div>
+                        <div class="col-12 form-group">
+                            <div class="custom-control custom-radio">
+                            <input type="radio" id="Premium" name="Subscriptions" value="3" class="custom-control-input">
+                            <label for="Premium" class="custom-control-label font-weight-bolder">Premium</label>
+                        
+                        </div>                         
+                        </div>                    
+                    </div>
+                        
+                        
+                </div>
+            </div>
+            </div>
+            
+            <div class="col-6">
+                <div class="card mb-2">
+                    <div class="card-body mb-2">
+                        <h4 class="card-title">PAYMENTS</h4>
+                        <h6 class="card-subtitle Small Text muted">Your Billing Details</h6>
+                        <div class="row mt-2">
+                            <div class="col-12" >
+
+                                <div class="row-mt-2">
+                                <label  class="custom-contro-label font-weight-bolder">Your Billing Cycle</label>
+                            
+                                <div class="col-12 form-group">
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="Monthly" name="Payments" value="1" class="custom-control-input">
+                                    <label for="Monthly" class="custom-control-label font-weight-bolder">Monthly</label>
+                                
+                                </div>                         
+                                </div>
+                                <div class="col-12 form-group">     
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="Quaterly" name="Payments" value="2" class="custom-control-input">
+                                    <label for="Quaterly" class="custom-control-label font-weight-bolder">Quaterly</label>
+                                
+                                </div>                         
+                                </div> 
+                                <div class="col-12 form-group">   
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="Anually" name="Payments" value="3" class="custom-control-input">
+                                    <label for="Anually" class="custom-control-label font-weight-bolder">Anually</label>
+                                
+                                </div>                         
+                                </div> 
+                </div>   
+
+                        <!-- ____________________________________________________________________________________ -->
+                        <div class="row">
+                            <div class="col-12" >
+                                <label for="Vocher" class="col-form-label font-weight-bolder">Vocher</label>
+                                <input type="text" id="Vocher" class="form-control">
+
+                        </div>      
+                        <div class="row mt-2">
+                            <div class="col-12">
+                                <div class="alert alert-warning">
+                                    Currently Your Subscriptions Don't Offer any Billing Details & Vouchers
+                                </div>
+                            </div>
+                        </div>    
+                               
+                        </div>
+                        
+
+                                </div>
+                            
+                        
+                        
+                    </div>
+            </div>
+            
+            
+        </div>
+        </div>
+        <div class="card mb-4">
+            <div class="card-body mt-4">
+                <h4 class="card-title">MICELEINIOUS SETTING</h4>
+                <h6 class="card-subtitle Small Text muted">Your Setting for Subscriptions , Email &amp; Two-Factor Authentication</h6>
+                <div class="row mt-3" >
+                    <div class="col-12 form-group" >
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  id="Emailsubscription"  class="custom-control-input">
+                        <label for="Emailsubscription"  class="custom-control-label" font-weight-bolder">Email For Subscriptions</label>
+    
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  id="smssubscription"  class="custom-control-input">
+                        <label for="smssubscription"  class="custom-control-label" font-weight-bolder">SMS - Subscriptions</label>
+    
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  id="enableauthentication"  class="custom-control-input">
+                        <label for="enableauthentication"  class="custom-control-label" font-weight-bolder"> 
+                            
+                            Enable For Two - Factor Authentication
+                        
+                        </label>
+    
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="col-12 form-group">
+                        <label for="Password" class="col-form-label font-weight-bolder">Password</label>
+                        <input type="text" id="Password" class="form-control">
+                    </div>
+                </div>
+                <div>
+                    <div class="col-12 form-group">
+                        <hr>
+                        <a href="#" class="btn btn-success float-right">
+                            Save Changes
+                        </a>
+                        <button class="btn btn-light float-right mr-2 " type="button">
+                           Cancel
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="card mb-2">
+            <div class="card-body mb-2">
+                <h4 class="card-title">LOGIN_CREDEINTIALS </h4>
+                <h6 class="card-subtitle Small Text muted">Your Secret Informations</h6>
+                <div class="col-12 form-group" >
+                    <label for="Email" class="col-form-label font-weight-bolder">Email</label>
+                    <input type="text" id="Email" class="form-control">
+                </div>
+                <div class="col-12 form-group">
+                    <label for="Password" class="col-form-label font-weight-bolder">Password</label>
+                    <input type="text" id="Password" class="form-control">
+                </div>
+                <div class="col-12 form-group">
+                    <label for="ConfirmPassword" class="col-form-label font-weight-bolder">Confirm Password</label>
+                    <input type="text" id="ConfirmPassword" class="form-control">
+                </div>
+                
+            </div>
+            <div>
+                <div class="col-12 form-group">
+                    <hr>
+                    <a href="#" class="btn btn-success float-right">
+                        Save Changes
+                    </a>
+                    <button class="btn btn-light float-right mr-2 " type="button">
+                       Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <hr>
+    
+        <div class="d-flex justify-content-between">
+            <a href="#">Privacy</a>
+        <div>
+            <p class="text-center">Copy@Right &copy; 2019_Digi Pakistan;</p>
+        </div>
+        <a href="#">Agreement</a>
+        </div>
+    
+        
+       </footer>
+       
+       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+       <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

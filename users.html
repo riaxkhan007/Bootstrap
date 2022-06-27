@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Bootstrap/css/navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  bg-digi">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img class="logo" src="/Bootstrap/images/favicon.png" alt="Logo">
+                </a>
+        
+                <Button class="navbar-toggler"
+                    data-toggle="collapse"
+                    data-target="#navbarStore">
+                    <span class="navbar-toggler-icon">
+        
+                    </span>
+                </Button>
+            <div class="collpase navbar-collapse" id="navbarStore">
+                <ul class="navbar-nav mr-auto" >
+                    <li nav-item>
+                        <a href="/Bootstrap/bootstrap2 copy.html" class="nav-link">HOME</a>
+                    </li>
+                    <li nav-item>
+                        <a href="/Bootstrap/Bootsrap2/bootstrap2.html" class="nav-link">DASHBOARD</a>
+                    </li>
+                    <li nav-item>
+                        <a href="/Bootstrap/register.html" class="nav-link">ABOUT US</a>
+                    </li>
+                    <li nav-item>
+                        <a href="/Bootstrap/Bootsrap2/contact.html" class="nav-link">CONTACT US</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav" >
+                    <li class="nav-item dropdown" style="user-select: auto;">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="user-select: auto;">Riaz Uddin</a>
+                        <div class="dropdown-menu mt-2" style="user-select: auto;">
+                          <a class="dropdown-item" href="/Bootstrap/Bootsrap2/personal.html" style="user-select: auto;">Profile</a>
+                          <a class="dropdown-item" href="/Bootstrap/Bootsrap2/contact.html" style="user-select: auto;">Contact</a>
+                          <a class="dropdown-item" href="/Bootstrap/Bootsrap2/subscription.html" style="user-select: auto;">Subscription</a>
+                          <div class="dropdown-divider" style="user-select: auto;"></div>
+                          <a class="dropdown-item" href="/Bootstrap/Bootsrap2/images/favicon.png" style="user-select: auto;">Favicon</a>
+                        </div>
+                      </li>
+                    <li nav-item>
+                        <a href="loginflow.html" class="nav-link">Sign IN</a>
+                    </li>
+                    <li nav-item>
+                        <a href="#" class="nav-link">Sign Out</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+<div class="container mt-4"> 
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="/Bootstrap/bootstrap1.html">Home</a>
+        </li>
+      
+           <li class="breadcrumb-item active">
+            <a href="/Bootstrap/Bootsrap2/personal.html">Personla Information</a> </li>
+    </ol>    
+   
+   <div class="row mt-2">
+       <div class="col-12 d-flex justify-content-between">
+        <h3>Users</h3>
+        <a href="#" class="btn btn-success">
+            Create New
+        </a>
+       </div>
+   </div>
+    <table class="table table-hover" id="users-data">
+        <thead>
+            <tr>
+                <th>Frist Name</th>
+                <th>Last Name</th>
+                <th>Email </th>
+                <th>Mobile </th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+
+                <td>Kiran</td>
+                <td>Imran</td>
+                <td>gnn0088@gmail.com</td>
+                <td>+923144008789</td>
+                <td>
+                    <span class="badge badge-success text-uppercase">Active</span>
+
+                </td>
+                <td>
+                    <a href="#" class="btn btn-sm btn-success js-edit" data-id="1">Edit</a>
+                    <a href="#" class="btn btn-danger btn-sm js-toggle" data-id="1">Disable</a>
+                </td>
+
+
+
+            </tr>
+            <tr>
+
+                <td>Nimra</td>
+                <td>Khan</td>
+                <td>Nimra@gmail.com</td>
+                <td>+923144008789</td>
+                <td>
+                    <span class="badge badge-warning text-uppercase">In Active</span>
+
+                </td>
+                <td>
+                    <a href="#" class="btn btn-sm btn-success js-edit" data-id="2">Edit</a>
+                    <a href="#" class="btn btn-success btn-sm js-toggle" data-id="2">Enable</a>
+                </td>
+
+
+
+            </tr>
+            <tr>
+
+                <td>Imran Ali</td>
+                <td>Deena</td>
+                <td>Imranalideena88@gmail.com</td>
+                <td>+923149908789</td>
+                <td>
+                    <span class="badge badge-success text-uppercase">Active</span>
+
+                </td>
+                <td>
+                    <a href="#" class="btn btn-sm btn-success">Edit</a>
+                    <a href="#" class="btn btn-danger btn-sm">Disable</a>
+                </td>
+
+
+
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    <div class="row">
+        <div class="col-12"> 
+            <ul class="pagination pagination-sm float-right">
+                <li class="page-item disabled" style="user-select: auto;">
+                  <a class="page-link" href="#" style="user-select: auto;">&laquo;</a>
+                </li>
+                <li class="page-item active" style="user-select: auto;">
+                  <a class="page-link" href="#" style="user-select: auto;">1</a>
+                </li>
+                <li class="page-item" style="user-select: auto;">
+                  <a class="page-link" href="#" style="user-select: auto;">2</a>
+                </li>
+                <li class="page-item" style="user-select: auto;">
+                  <a class="page-link" href="#" style="user-select: auto;">3</a>
+                </li>
+                <li class="page-item" style="user-select: auto;">
+                  <a class="page-link" href="#" style="user-select: auto;">4</a>
+                </li>
+                <li class="page-item" style="user-select: auto;">
+                  <a class="page-link" href="#" style="user-select: auto;">5</a>
+                </li>
+                <li class="page-item" style="user-select: auto;">
+                  <a class="page-link" href="#" style="user-select: auto;">&raquo;</a>
+                </li>
+              </ul>
+        </div>
+        
+      </div>
+
+
+
+   <footer>
+    <hr>
+
+    <div class="d-flex justify-content-between">
+        <a href="#">Privacy</a>
+    <div>
+        <p class="text-center">Copy@Right &copy; 2019_Digi Pakistan;</p>
+    </div>
+    <a href="#">Agreement</a>
+    </div>
+
+    
+   </footer>
+    
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+       <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="/Bootstrap/css/bootbox.js"></script>
+        <script>
+            $(function(){
+                $("#users-data .js-toggle").on("click", function(event){
+                    event.preventDefault();
+                    alert('You clicked for disable');
+                    
+
+                });
+                $("#users-data .js-edit").on("click", function(event){
+                    event.preventDefault();
+
+                    let element = $(this);
+                    console.log(element.attr('data-id'));
+                    
+                    $.ajax ({
+                        url: '/riaz.txt',
+                        data: {id: element.attr('id')},
+                        success: function(response){
+                            console.log(response)
+                     },
+                    });
+                });
+            });
+            $(document).delegate(
+                "#users-data .btn-danger", 
+                "click",
+                function(event){
+                    event.preventDefault();
+                    bootbox.confirm({
+                        message:"Are you sure?", 
+                        callback: function (result) {
+                        if (result) {
+                           bootbox.alert("You Ask confirmed for Delete");
+                        }  
+                    },
+                   buttons:{
+                       confirm:{
+                           label: "Yes",
+                           className: "btn-success",
+                       },
+                       cancel:{
+                           label: "No",
+                           className: "btn-danger",
+                       },
+                   },
+                
+                    });    
+                }
+                );     
+        </script>
+</body>
+</html>
